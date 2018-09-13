@@ -1,0 +1,28 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-from-elm",
+  "version": "0.0.1",
+  "description": "A simple hello world in Elm, hosted by node/Express.",
+  "main": "server.js",
+  "scripts": {
+    "start": "elm make src/Main.elm --optimize --output=./public/elm.js && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "elm": "^0.19.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

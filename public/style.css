@@ -1,0 +1,46 @@
+/* styles */
+/* called by your view template */
+
+body {
+  font-family: 'Source Sans Pro', 
+    'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+
+.slide {
+  background: cornsilk;
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+    
+  font-size: 3vh;
+}
+
+.slide h1 {
+  font-size: 6vh;
+  text-align: center;
+}
+
+.slide p {
+  text-align: center; 
+}
+
+.slide img {
+  max-width: 80vw;
+  max-height: 40vh;
+  min-height: 30vh;
+}
+
+.slide .img-override {
+  min-height: 0;
+}
+
+.slide #elm-logo {
+  height: 20vh;
+  width: 20vw;
+}
