@@ -10,8 +10,9 @@
     "start": "elm make src/Main.elm --optimize --output=./public/elm.js && node server.js"
   },
   "dependencies": {
-    "express": "^4.16.3",
-    "elm": "^0.19.0"
+    "elm": "^0.19.0",
+    "elm-format": "^0.8.0",
+    "express": "^4.16.3"
   },
   "engines": {
     "node": "8.x"
