@@ -11,7 +11,8 @@
             "elm/html": "1.0.0",
             "elm/http": "1.0.0",
             "elm/json": "1.0.0",
-            "elm-explorations/markdown": "1.0.0"
+            "elm-explorations/markdown": "1.0.0",
+            "mpizenberg/elm-pointer-events": "3.0.0"
         },
         "indirect": {
             "elm/time": "1.0.0",
